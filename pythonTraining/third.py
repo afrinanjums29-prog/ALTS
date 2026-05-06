@@ -1,0 +1,12 @@
+#program to read Employee data print data
+ename=input("Enter Employee name:")
+eno=int(input("Enter employee number:"))
+esal=float(input("Enter Employee salary:"))
+eadd=input("Enter address:")
+married=bool(input("Employee married[True/False]:"))
+print("Employee Information")
+print("Employee no:",eno)
+print("Employee name:",ename)
+print("Employee salary:",esal)
+print("Employee address:",eadd)
+print("marital status:",married)
